@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miss Doctor</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\Doctor Website\css\styles.css">
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\Doctor Website\css\styles1.css">
+    
+</head>
+
+<body>
+    <header>
+    <div id="heading" >
+        <div class="nav-bar">
+        <nav>
+            <h1>Hello Doctor  0987654321</h1>
+        </nav>
+       <button class="open-button" onclick="openForm()">Contact</button>
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>ViSit Me</h1>
+      
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
+      
+          <label for="phone"><b>Telph</b></label>
+          <input type="tel" placeholder="Enter Number" name="phone" required>
+      
+          <button type="submit" class="btn">Call Me</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+</header>
+<!-- Doctor photo and early life-->
+<section>
+    <div class="bio">
+        <p>Born in London, and raised in the United States, Dr. Shriram Nene is the son of Indian immigrants who had left India in 1962. Educated in the United States and he developed a passion for science and technology at an early age, and was inspired by the classical renaissance thinkers and inventors like Michelangelo, 
+            </p>
+            
+                <img class="img-one" src="C:\Users\HP\Desktop\Doctor Website\css\doctor.png" alt="Doctor image">
+        <p> I am ready at your service. How can i help you?</p>
+    
+        
+    </div>
+    
+</section>
+
+<!-- features -->
+<main>
+    <div class="column">
+        <div class="row">
+            <div class="box">
+                <h3>Feutures</h3>
+                <!--
+                <ul>
+                    <li>Good Communication</li>
+                    <li>Collbrative</li>
+                    <li>Curious</li>
+                </ul>
+            --> 
+            </div>
+            <div class="box"></div>
+            <div class="box"></div> 
+        </div>
+        
+    </div>
+
+</main>
+<!-- why this doctor-->
+<div id="vision">
+ <div class="middle"> 
+<figure class="frame">
+    <img src="C:\Users\HP\Desktop\Doctor Website\css\home.svg" class="pic" alt="dedication" width="80" height="80">
+
+</figure>
+<div class="text">Determine</div>
+</div>
+
+<div class="middle"> 
+<figure class="frame">
+    <img src="C:\Users\HP\Desktop\Doctor Website\css\home.svg" class="pic" alt="dedication" width="80" height="80">
+
+</figure>
+<div class="text">clarity</div>
+</div>
+
+<div class="middle"> 
+<figure class="frame">
+    <img src="C:\Users\HP\Desktop\Doctor Website\css\home.svg" class="pic" alt="dedication" width="80" height="80">
+
+</figure>
+<div class="text">Determine</div>
+</div>
+
+<div class="middle"> 
+<figure class="frame">
+    <img src="C:\Users\HP\Desktop\Doctor Website\css\home.svg" class="pic" alt="dedication" width="80" height="80">
+
+</figure>
+<div class="text">Determine</div>
+</div>
+
+<div class="middle"> 
+<figure class="frame">
+    <img src="C:\Users\HP\Desktop\Doctor Website\css\home.svg" class="pic" alt="dedication" width="80" height="80">
+
+</figure>
+<div class="text">Determine</div>
+</div>
+</div>   
+
+<!-- Footer -->
+<div class="footer">
+    <section>
+        <ul>
+            <li>Contact me</li>
+            <li>mail me</li>
+            <li>All rights reserved</li>
+        </ul>
+    </section>
+
+</div>
+<script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+
+</body>
+</html>

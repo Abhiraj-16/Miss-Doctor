@@ -1,0 +1,76 @@
+
+/* this button used to open contact form */
+.open-button {
+    background-color: #323232;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
+    right: 28px;
+    width: 150px;
+    font-size: x-large;
+
+  }
+
+  /* popup form - hidden by default */
+
+  .form-popup {
+    display: grid;
+    position: fixed;
+    top: 70px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #FFC600;
+    text-align: center;
+    color: #5800FF;
+  }
+
+
+  .form-container input[type=text], .form-container input[type=tel] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 10px auto;
+    border: none;
+    background: #f1f1f1;
+  }
+
+   label{
+       text-align: left;
+   }
+
+  .form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-container .cancel {
+    background-color: red;
+  }
+
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
